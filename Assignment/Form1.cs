@@ -19,7 +19,7 @@ namespace Assignment
 
         private void Form1_Load(object sender, EventArgs e)
         {
-          
+
         }
 
         private void TextBox2_TextChanged(object sender, EventArgs e)
@@ -28,7 +28,7 @@ namespace Assignment
         }
 
         private void Button1_Click(object sender, EventArgs e)
-         {
+        {
             //use try catch from textboxes
             try
             {
@@ -51,5 +51,40 @@ namespace Assignment
         {
 
         }
+
+        private void TabPage1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            //use try catch from textboxes
+            try
+
+            {
+                double lengh = double.Parse(textBox1.Text);
+                double height = double.Parse(textBox2.Text);
+                double width = double.Parse(textBox3.Text);
+                // finds surface area
+                double surfacearea = 2.0 * (lengh * width + width * height + lengh * height);
+
+                label5.Text = "surfacearea = " + surfacearea;
+            }
+            //use catch to ouput error message
+            catch
+            {
+                MessageBox.Show("Error on input. ");
+            }
+        }
     }
+        
+        
+        
+         
 }
