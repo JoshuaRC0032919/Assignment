@@ -83,5 +83,8 @@
   <ItemGroup>
     <None Include="Resources\cuboid.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sphere.jfif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

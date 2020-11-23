@@ -82,6 +82,39 @@ namespace Assignment
                 MessageBox.Show("Error on input. ");
             }
         }
+
+        private void Button3_Click(object sender, EventArgs e)
+            
+        {
+            //use try catch from textboxes
+            try
+            {
+                double radius = double.Parse(textBox4.Text);
+                double volume = 4 * radius * radius * radius * 3.14159 / 3;
+                label7.Text = "volume = " + volume;
+            }
+            //use catch to ouput error message
+            catch
+            {
+                MessageBox.Show("Error on input. ");
+            }
+        }
+        private void Button4_Click(object sender, EventArgs e)
+        {
+            //use try catch from textboxes
+            try
+            {
+                double radius = double.Parse(textBox4.Text);
+                double surfacearea = 4 * 3.145 * radius * radius;
+                label8.Text = "surfacearea = " + surfacearea;
+            }
+            //use catch to ouput error message
+            catch
+            {
+                MessageBox.Show("Error on input. ");
+            }
+            
+        }
     }
         
         
