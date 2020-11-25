@@ -86,5 +86,8 @@
   <ItemGroup>
     <None Include="Resources\sphere.jfif" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gsed_0001_0013_0_img3089.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

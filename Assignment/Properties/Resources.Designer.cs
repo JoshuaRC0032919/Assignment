@@ -73,6 +73,16 @@ namespace Assignment.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap gsed_0001_0013_0_img3089 {
+            get {
+                object obj = ResourceManager.GetObject("gsed_0001_0013_0_img3089", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap sphere {
             get {
                 object obj = ResourceManager.GetObject("sphere", resourceCulture);

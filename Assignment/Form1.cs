@@ -118,8 +118,35 @@ namespace Assignment
 
         private void Button5_Click(object sender, EventArgs e)
         {
+            //use try catch from textboxes
+            try
             {
+                double Radius = double.Parse(textBox5.Text);
+                double Height = double.Parse(textBox6.Text);
+                double Volume = 1 * 3.14159 * Radius * Radius * Height / 3;
+                label11.Text = ("Volume =") + Volume;
+            }
+            //use catch to ouput error message
+            catch
+            {
+                MessageBox.Show("Error on input. ");
+            }
+        }
 
+        private void Button6_Click(object sender, EventArgs e)
+        {
+            //use try catch from textboxes
+            try
+            {
+                double Radius = double.Parse(textBox5.Text);
+                double Height = double.Parse(textBox6.Text);
+                double Surfacearea = 3.1459 * Radius * (Radius + Math.Sqrt(Radius * Radius * Height * Height));
+                label12.Text = ("surfacearea =") + Surfacearea;
+            }
+            //use catch to ouput error message
+            catch
+            {
+                MessageBox.Show("Error on input. ");
             }
         }
     }
